@@ -1,0 +1,25 @@
+RARE BIRDS — MAC FIRST RUN
+==========================
+
+1. Install the current Node.js LTS macOS Installer from:
+   https://nodejs.org/en/download
+
+2. Double-click START_RARE_BIRDS.command.
+
+IF MACOS SAYS THE COMMAND IS DAMAGED
+------------------------------------
+
+This is macOS quarantining a script from a transferred ZIP; the file is not
+corrupt.
+
+1. Open Terminal from Applications > Utilities.
+2. Type the following command, leaving a space after the final word:
+
+   xattr -dr com.apple.quarantine 
+
+3. Drag the entire extracted project folder from Finder into Terminal.
+4. Press Return.
+5. Double-click START_RARE_BIRDS.command again.
+
+This removes quarantine only from this project folder. It does not disable
+Gatekeeper or change the Mac's general security settings.

@@ -24,6 +24,10 @@
 .DS_Store
 *.pem
 
+# packaged copies of the site
+/release/
+*.zip
+
 # debug
 npm-debug.log*
 yarn-debug.log*
